@@ -19,6 +19,7 @@ body {
   border-bottom: 5px solid black;
   border-right: 5px solid black;
   border-left: 5px solid black;
+  object-fit: cover;
 }
 .container__bg {
   left: -4px;
@@ -35,6 +36,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 
   &:before {
     content: "";
@@ -150,5 +152,9 @@ body {
   }
   50% {
     opacity: 0;
+  }
+}
+@media screen and(max-width:768px) {
+  .container {
   }
 }

@@ -20,6 +20,7 @@ body {
   border-bottom: 5px solid black;
   border-right: 5px solid black;
   border-left: 5px solid black;
+  object-fit: cover;
 }
 
 .container__bg {
@@ -37,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 }
 .container__bg:before {
   content: "";
